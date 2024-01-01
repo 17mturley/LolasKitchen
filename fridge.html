@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lolas Kitchen</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div class="navbar">
+<h1>Lola's Kitchen</h1>
+    <div class="content">
+        <main>
+    <div id="fridge-pantry-grocery-section">
+        <div id="fridge-section">
+            <h1>My Fridge</h1>
+            <form>
+                
+                <label for="fridge-select">Search Fridge:</label>
+                <select id="fridge-select"></select>
+
+            </form>
+            <div id="selected-fridge-ingredients"></div>
+        </div>
+        <div id="pantry-section">
+            <h1>My Pantry</h1>
+            <form>
+                
+                <label for="pantry-select">Search Pantry:</label>
+                <select id="pantry-select"></select>
+
+            </form>
+            <div id="selected-pantry-ingredients"></div>
+        </div>
+        <div id="grocery-list-section">
+            <h1>Grocery List</h1>
+            <div id="grocery-list"></div>
+            <button id="grocery-list-button">Get Grocery List</button>
+        </div>
+    </div>
+        <div id="my-recipes-section">
+            <h1>My Recipes</h1>
+          <div id="selected-recipes"></div>
+        </div>
+        <div id="add-recipes-section">
+            <h1>Recipe Selection</h1>
+        <div id="recipes"></div>
+        <div id="selected-recipes"></div>
+        </div>
+        </main>
+    </div>
+        <script src="../node_modules/axios/dist/axios.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
